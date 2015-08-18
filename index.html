@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<title>Mi juego</title>
+
+<!--grupo CSS-->
+  <link rel="stylesheet" href="css/colores.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>Ahorcado</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <div data-role="controlgroup">
+    <a href="#jugar" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">Jugar</a>
+    <a href="#opciones" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">Opciones</a>
+    <a href="#Puntaje" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">Puntaje</a>
+    <a href="#Acerca" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">Acerca de...</a>
+    <a href="#Ayuda" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">Ayuda</a>
+    </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>JOSE ANTONIO MENDEZ LAZCANO</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+
+ <!-- JUEGO -->
+ <div data-role="page" id="jugar" >   
+   <div data-role="header">
+    <h1>Juego</h1>
+  <a href="#principal" class="ui-btn ui-corner-all ui-icon-back ui-btn-icon-left">Regresar</a>
+  <center><img src="ahorcado1.jpg" width="1500" height="700"></center>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+ 
+  
+     <div data-role="controlgroup" data-type="horizontal">
+
+</div>
+  </div>
+
+  <div data-role="footer">
+    <h1>JOSE ANTONIO MENDEZ LAZCANO</h1>
+  </div>
+ </div>  
+ <!-- JUGO -->
+ 
+ <!-- opciones -->
+ <div data-role="page" id="opciones" >
+<div data-role="header">
+    <h1>Opciones</h1>
+  <a href="#principal" class="ui-btn ui-corner-all ui-icon-back ui-btn-icon-left">Regresar</a>
+  </div>
+  
+  
+  <div>
+  <a href="#" id="btn_sonido" class="ui-btn ui-btn-corner-all ui-icon-audio ui-btn-icon-right ui-btn-inline">SONIDO</a>
+ </div>
+ <div>
+  <a href="#" id="btn_vibrar" class="ui-btn ui-btn-corner-all ui-icon-clock ui-btn-icon-right ui-btn-inline">VIBRAR</a>
+ </div>
+  
+  <div data-role="controlgroup" data-type="horizontal">
+<a href="#principal" data-role="button" data-inline="true" data-icon="back" data-iconpos="right" id="principal">Guardar</a>
+<a href="#principal" data-role="button" data-inline="true" data-icon="back" data-iconpos="right" id="principal">Cancelar</a>
+</div>
+   <div data-role="footer">
+    <h1>JOSE ANTONIO MENDEZ LAZCANO</h1>
+  </div>
+ </div>   
+  
+
+ <!-- opciones -->
+  
+  <!-- Puntaje -->
+ <div data-role="page" id="Puntaje" >   
+  <div data-role="header">
+    <h1>Puntaje</h1>
+     <a href="#principal" class="ui-btn ui-corner-all ui-icon-back ui-btn-icon-left">Regresar</a>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <div>
+  <div style="float:left; width:20%; border:1px solid #0CF" align="center">
+  <p>Lugar</p>
+  </div>
+  <div style="float:left; width:50%; border:1px solid #00F" align="center">
+  <p>Nombre</p>
+  </div>
+  <div style="float:left; width:20%; border:1px solid #96F" align="center">
+  <p>Puntaje</p>
+  </div>
+  </div>
+  </div>
+  
+  <div data-role="footer" align="right">
+    <h1>JOSE ANTONIO MENDEZ LAZCANO</h1>
+  </div>
+ </div>  
+ <!-- Puntaje -->
+
+<!-- Acerca de -->
+ <div data-role="page" id="Acerca" >   
+   <div data-role="header">
+    <h1>Acerca de...</h1>
+    <a href="#principal" class="ui-btn ui-corner-all ui-icon-back ui-btn-icon-left">Regresar</a>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+  <p>Creador</p>
+  <p>Objetivo</p>
+</div>
+
+  <div data-role="footer">
+    <h1>JOSE ANTONIO MENDEZ LAZCANO</h1>
+  </div>
+ </div>  
+ <!-- acerca de -->
+ 
+ <!-- Ayuda -->
+ <div data-role="page" id="Ayuda" >   
+   <div data-role="header">
+    <h1>Ayuda</h1>
+     <a href="#principal" class="ui-btn ui-corner-all ui-icon-back ui-btn-icon-left">Regresar</a>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+  <p>Ayuda</p>
+ </div>
+
+  <div data-role="footer">
+    <h1>JOSE ANTONIO MENDEZ LAZCANO</h1>
+  </div>
+ </div>  
+ <!-- Ayuda -->
+ 
+</body>
+</html>
